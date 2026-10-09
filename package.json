@@ -1,0 +1,13 @@
+{
+  "name": "beauty-salon-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Beauty salon template website",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "serve:pages": "node scripts/serve-pages.mjs"
+  }
+}
